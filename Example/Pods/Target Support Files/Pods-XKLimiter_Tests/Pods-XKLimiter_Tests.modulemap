@@ -1,0 +1,6 @@
+framework module Pods_XKLimiter_Tests {
+  umbrella header "Pods-XKLimiter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

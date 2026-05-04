@@ -1,0 +1,6 @@
+framework module XKLimiter {
+  umbrella header "XKLimiter-umbrella.h"
+
+  export *
+  module * { export * }
+}

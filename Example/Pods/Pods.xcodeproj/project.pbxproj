@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02AA5A0726E996C6E0FFC092F95EBBBB /* XKLimiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EB97D22C35FE3814253654636220BB /* XKLimiter.swift */; };
+		0BEFC40642B5B9B991A8135A66C7738B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		12B11DC91C566C50FE80335F70087E74 /* Pods-XKLimiter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB15E22129958B3E38338D0BE340599 /* Pods-XKLimiter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183F4877CEF75BE4C47340A0BD4DFA27 /* XKLimiter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F2586574D92B4875D5546C5A538274 /* XKLimiter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26F221F700B8ABC9AC0D5A539AB9889E /* Pods-XKLimiter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2DED64418D4860D6079E566399561 /* Pods-XKLimiter_Tests-dummy.m */; };
+		41F723C9CF45758A455FF996F4C943BD /* XKLimiter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5DA1C6FF79A868B1FE83CD3CDA8921 /* XKLimiter-dummy.m */; };
+		4A9A3BABD4D5567EBA33EB9213AD8881 /* Pods-XKLimiter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E768B9DE449E7476766CB8ACC4A43D7B /* Pods-XKLimiter_Example-dummy.m */; };
+		5AB699BB23AD78095D93726F62F76CD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		79C84C23771F9A251B765D3357EE7F28 /* Pods-XKLimiter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B60686D0BCC48D9958D2F7898511C23 /* Pods-XKLimiter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B229CDCE393A4EEDA06888EFF282433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1878FF9C881155338FCEF9C3E0BA9C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D42EEBE5910B1D0524513A2C886DAA0;
+			remoteInfo = "Pods-XKLimiter_Example";
+		};
+		F9D21A95A01B6117F311FA99F47C90AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0CE1785FEB3EFDE84841906F9079E17;
+			remoteInfo = XKLimiter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0309346F1EBA019C58DC20612FCB3821 /* Pods-XKLimiter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKLimiter_Tests.modulemap"; sourceTree = "<group>"; };
+		0AFC6EDB0B601F6E6A2C4E021F74714A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1EF56C93CAE2835E037C3F562CD60EC0 /* XKLimiter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XKLimiter; path = XKLimiter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2563B046EEB059310BB30CCB1D51D153 /* Pods-XKLimiter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKLimiter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2B60686D0BCC48D9958D2F7898511C23 /* Pods-XKLimiter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKLimiter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2E6CA1818A6CFEBFEF0DB3174F106330 /* Pods-XKLimiter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKLimiter_Example-Info.plist"; sourceTree = "<group>"; };
+		33C1E4C26C39108F5CEF9A5F3EE5F868 /* Pods-XKLimiter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKLimiter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		34F4ABE530D760B60F506F47EECD63BB /* XKLimiter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XKLimiter-Info.plist"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		398EC72A1F05A3B1B5424BF66626F2CD /* Pods-XKLimiter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKLimiter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		58EB97D22C35FE3814253654636220BB /* XKLimiter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKLimiter.swift; path = XKLimiter/Classes/XKLimiter.swift; sourceTree = "<group>"; };
+		5A0AD26CA01E21014A24334F15D06EA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5AB15E22129958B3E38338D0BE340599 /* Pods-XKLimiter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKLimiter_Example-umbrella.h"; sourceTree = "<group>"; };
+		5CE361348B160472DCAE416B41EE8D73 /* Pods-XKLimiter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKLimiter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		601D3AE8B9C90D18A88F1C16E4BC0377 /* Pods-XKLimiter_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XKLimiter_Tests"; path = Pods_XKLimiter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC6A79E9BB9B8C1488C1CD142822305 /* XKLimiter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKLimiter-prefix.pch"; sourceTree = "<group>"; };
+		8CE2DED64418D4860D6079E566399561 /* Pods-XKLimiter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKLimiter_Tests-dummy.m"; sourceTree = "<group>"; };
+		8F753EF6F463DC99B6557C25284B576D /* XKLimiter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XKLimiter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9276CD9012DCE5460D06DCCD8E5367A5 /* Pods-XKLimiter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKLimiter_Tests-Info.plist"; sourceTree = "<group>"; };
+		94847E950A9EC668B7448B882DF73F31 /* Pods-XKLimiter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKLimiter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		990B3600D462369B54E754F308E4614D /* Pods-XKLimiter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKLimiter_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCDB95699C4766F3302F7BE48105D541 /* XKLimiter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKLimiter.release.xcconfig; sourceTree = "<group>"; };
+		BF83B00B170D830FFD16BD370CD12B6A /* Pods-XKLimiter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKLimiter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0CE6B51028C0B7FCF425DD6999B75FD /* Pods-XKLimiter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKLimiter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D0F196296EDBB9CCE11A26E6B0C8B72F /* Pods-XKLimiter_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XKLimiter_Example"; path = Pods_XKLimiter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F2586574D92B4875D5546C5A538274 /* XKLimiter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKLimiter-umbrella.h"; sourceTree = "<group>"; };
+		DB639ACA9222FF3990EDB4C117EEA34B /* XKLimiter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKLimiter.debug.xcconfig; sourceTree = "<group>"; };
+		E6FF02562552F3E4C2821D9643BA7C1C /* Pods-XKLimiter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKLimiter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E768B9DE449E7476766CB8ACC4A43D7B /* Pods-XKLimiter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKLimiter_Example-dummy.m"; sourceTree = "<group>"; };
+		EAF07CD3B99325AB1364EF7794085086 /* XKLimiter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKLimiter.modulemap; sourceTree = "<group>"; };
+		ED5DA1C6FF79A868B1FE83CD3CDA8921 /* XKLimiter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKLimiter-dummy.m"; sourceTree = "<group>"; };
+		FF9CBF9C744E95A46474EAC06D56EB84 /* Pods-XKLimiter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKLimiter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		463034D561757530399E5A13F168C76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEFC40642B5B9B991A8135A66C7738B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C163AC6190D27EAAAFD39E01E03DFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B229CDCE393A4EEDA06888EFF282433 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811A9E1ADEA902975AB7E58401F3D25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB699BB23AD78095D93726F62F76CD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14CB2D7C58ECC6CFC94EF2372FD74516 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5CBD7AF84D3589E6326D929535F72CE /* Pods-XKLimiter_Example */,
+				FCA8CB90777BE7EDD6CE57D75EA28E98 /* Pods-XKLimiter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3D3B2006FD1942106F514374FF20FA7C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0AFC6EDB0B601F6E6A2C4E021F74714A /* LICENSE */,
+				5A0AD26CA01E21014A24334F15D06EA2 /* README.md */,
+				8F753EF6F463DC99B6557C25284B576D /* XKLimiter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		553C348C2685E1E1EB158DEB7175C213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0F196296EDBB9CCE11A26E6B0C8B72F /* Pods-XKLimiter_Example */,
+				601D3AE8B9C90D18A88F1C16E4BC0377 /* Pods-XKLimiter_Tests */,
+				1EF56C93CAE2835E037C3F562CD60EC0 /* XKLimiter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60BC14A6BFC8224FE5743BE28595304D /* XKLimiter */ = {
+			isa = PBXGroup;
+			children = (
+				58EB97D22C35FE3814253654636220BB /* XKLimiter.swift */,
+				3D3B2006FD1942106F514374FF20FA7C /* Pod */,
+				FACE771052FAAB5E4808A8F3E8EEA615 /* Support Files */,
+			);
+			name = XKLimiter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		69BE69E9F5D15A8B8D4A3A09C3953C79 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60BC14A6BFC8224FE5743BE28595304D /* XKLimiter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C5CBD7AF84D3589E6326D929535F72CE /* Pods-XKLimiter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				990B3600D462369B54E754F308E4614D /* Pods-XKLimiter_Example.modulemap */,
+				FF9CBF9C744E95A46474EAC06D56EB84 /* Pods-XKLimiter_Example-acknowledgements.markdown */,
+				94847E950A9EC668B7448B882DF73F31 /* Pods-XKLimiter_Example-acknowledgements.plist */,
+				E768B9DE449E7476766CB8ACC4A43D7B /* Pods-XKLimiter_Example-dummy.m */,
+				398EC72A1F05A3B1B5424BF66626F2CD /* Pods-XKLimiter_Example-frameworks.sh */,
+				2E6CA1818A6CFEBFEF0DB3174F106330 /* Pods-XKLimiter_Example-Info.plist */,
+				5AB15E22129958B3E38338D0BE340599 /* Pods-XKLimiter_Example-umbrella.h */,
+				E6FF02562552F3E4C2821D9643BA7C1C /* Pods-XKLimiter_Example.debug.xcconfig */,
+				D0CE6B51028C0B7FCF425DD6999B75FD /* Pods-XKLimiter_Example.release.xcconfig */,
+			);
+			name = "Pods-XKLimiter_Example";
+			path = "Target Support Files/Pods-XKLimiter_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				69BE69E9F5D15A8B8D4A3A09C3953C79 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				553C348C2685E1E1EB158DEB7175C213 /* Products */,
+				14CB2D7C58ECC6CFC94EF2372FD74516 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FACE771052FAAB5E4808A8F3E8EEA615 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF07CD3B99325AB1364EF7794085086 /* XKLimiter.modulemap */,
+				ED5DA1C6FF79A868B1FE83CD3CDA8921 /* XKLimiter-dummy.m */,
+				34F4ABE530D760B60F506F47EECD63BB /* XKLimiter-Info.plist */,
+				6EC6A79E9BB9B8C1488C1CD142822305 /* XKLimiter-prefix.pch */,
+				D9F2586574D92B4875D5546C5A538274 /* XKLimiter-umbrella.h */,
+				DB639ACA9222FF3990EDB4C117EEA34B /* XKLimiter.debug.xcconfig */,
+				BCDB95699C4766F3302F7BE48105D541 /* XKLimiter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XKLimiter";
+			sourceTree = "<group>";
+		};
+		FCA8CB90777BE7EDD6CE57D75EA28E98 /* Pods-XKLimiter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0309346F1EBA019C58DC20612FCB3821 /* Pods-XKLimiter_Tests.modulemap */,
+				33C1E4C26C39108F5CEF9A5F3EE5F868 /* Pods-XKLimiter_Tests-acknowledgements.markdown */,
+				BF83B00B170D830FFD16BD370CD12B6A /* Pods-XKLimiter_Tests-acknowledgements.plist */,
+				8CE2DED64418D4860D6079E566399561 /* Pods-XKLimiter_Tests-dummy.m */,
+				9276CD9012DCE5460D06DCCD8E5367A5 /* Pods-XKLimiter_Tests-Info.plist */,
+				2B60686D0BCC48D9958D2F7898511C23 /* Pods-XKLimiter_Tests-umbrella.h */,
+				5CE361348B160472DCAE416B41EE8D73 /* Pods-XKLimiter_Tests.debug.xcconfig */,
+				2563B046EEB059310BB30CCB1D51D153 /* Pods-XKLimiter_Tests.release.xcconfig */,
+			);
+			name = "Pods-XKLimiter_Tests";
+			path = "Target Support Files/Pods-XKLimiter_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B674D1B38E27A85874EB148DFF2BD43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183F4877CEF75BE4C47340A0BD4DFA27 /* XKLimiter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE2F78EA9A1E6BB526FFFE760CBA38F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B11DC91C566C50FE80335F70087E74 /* Pods-XKLimiter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C40AF0E96BA71716221ECFBD95220F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C84C23771F9A251B765D3357EE7F28 /* Pods-XKLimiter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		205D8ED2E21D6C403E7DFF520357129A /* Pods-XKLimiter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172635E9F99434158ED026F80D4252A7 /* Build configuration list for PBXNativeTarget "Pods-XKLimiter_Tests" */;
+			buildPhases = (
+				87C40AF0E96BA71716221ECFBD95220F /* Headers */,
+				59ABEEED4D3C7AAE396A210551EA3695 /* Sources */,
+				463034D561757530399E5A13F168C76D /* Frameworks */,
+				C271D9D20E326BBC0AD6D6423E3BF49C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C8D92A2DB74C253545BF30634CEB51 /* PBXTargetDependency */,
+			);
+			name = "Pods-XKLimiter_Tests";
+			productName = Pods_XKLimiter_Tests;
+			productReference = 601D3AE8B9C90D18A88F1C16E4BC0377 /* Pods-XKLimiter_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D42EEBE5910B1D0524513A2C886DAA0 /* Pods-XKLimiter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14525C50B096CD21CBA5552AB806C86 /* Build configuration list for PBXNativeTarget "Pods-XKLimiter_Example" */;
+			buildPhases = (
+				6BE2F78EA9A1E6BB526FFFE760CBA38F /* Headers */,
+				11C7F0FCF74571B2C771EE709B610B6E /* Sources */,
+				5C163AC6190D27EAAAFD39E01E03DFBF /* Frameworks */,
+				0855BFD57E9F3F5BDE443907E6934205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29F5C9FE7A436CB733B10777211BBC03 /* PBXTargetDependency */,
+			);
+			name = "Pods-XKLimiter_Example";
+			productName = Pods_XKLimiter_Example;
+			productReference = D0F196296EDBB9CCE11A26E6B0C8B72F /* Pods-XKLimiter_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0CE1785FEB3EFDE84841906F9079E17 /* XKLimiter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8353B18D22AA59DAC56EB6EA982D4D39 /* Build configuration list for PBXNativeTarget "XKLimiter" */;
+			buildPhases = (
+				0B674D1B38E27A85874EB148DFF2BD43 /* Headers */,
+				43BC7DBD28C3C1DB64337D371B2A8AE2 /* Sources */,
+				811A9E1ADEA902975AB7E58401F3D25E /* Frameworks */,
+				9D8C13D7D0439EE385F30DDA2BC871E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XKLimiter;
+			productName = XKLimiter;
+			productReference = 1EF56C93CAE2835E037C3F562CD60EC0 /* XKLimiter */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 553C348C2685E1E1EB158DEB7175C213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D42EEBE5910B1D0524513A2C886DAA0 /* Pods-XKLimiter_Example */,
+				205D8ED2E21D6C403E7DFF520357129A /* Pods-XKLimiter_Tests */,
+				D0CE1785FEB3EFDE84841906F9079E17 /* XKLimiter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0855BFD57E9F3F5BDE443907E6934205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8C13D7D0439EE385F30DDA2BC871E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C271D9D20E326BBC0AD6D6423E3BF49C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11C7F0FCF74571B2C771EE709B610B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9A3BABD4D5567EBA33EB9213AD8881 /* Pods-XKLimiter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BC7DBD28C3C1DB64337D371B2A8AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AA5A0726E996C6E0FFC092F95EBBBB /* XKLimiter.swift in Sources */,
+				41F723C9CF45758A455FF996F4C943BD /* XKLimiter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59ABEEED4D3C7AAE396A210551EA3695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F221F700B8ABC9AC0D5A539AB9889E /* Pods-XKLimiter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29F5C9FE7A436CB733B10777211BBC03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XKLimiter;
+			target = D0CE1785FEB3EFDE84841906F9079E17 /* XKLimiter */;
+			targetProxy = F9D21A95A01B6117F311FA99F47C90AA /* PBXContainerItemProxy */;
+		};
+		C9C8D92A2DB74C253545BF30634CEB51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XKLimiter_Example";
+			target = 9D42EEBE5910B1D0524513A2C886DAA0 /* Pods-XKLimiter_Example */;
+			targetProxy = A1878FF9C881155338FCEF9C3E0BA9C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6BADCD83F7A0D2B4B3448BBFC3C33511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0CE6B51028C0B7FCF425DD6999B75FD /* Pods-XKLimiter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-XKLimiter_Example/Pods-XKLimiter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKLimiter_Example/Pods-XKLimiter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8EA79669DC68399D1DAF0D3D39B3841F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE361348B160472DCAE416B41EE8D73 /* Pods-XKLimiter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-XKLimiter_Tests/Pods-XKLimiter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKLimiter_Tests/Pods-XKLimiter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99CEC9067DE850BE45793F27BDD1A05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2563B046EEB059310BB30CCB1D51D153 /* Pods-XKLimiter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-XKLimiter_Tests/Pods-XKLimiter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKLimiter_Tests/Pods-XKLimiter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F459C66BA23182CF03FB6C3A6D4BA53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6FF02562552F3E4C2821D9643BA7C1C /* Pods-XKLimiter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-XKLimiter_Example/Pods-XKLimiter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKLimiter_Example/Pods-XKLimiter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E6AB2349DA7E88C784FE911E4F066D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB639ACA9222FF3990EDB4C117EEA34B /* XKLimiter.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/XKLimiter/XKLimiter-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/XKLimiter/XKLimiter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XKLimiter/XKLimiter.modulemap";
+				PRODUCT_MODULE_NAME = XKLimiter;
+				PRODUCT_NAME = XKLimiter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E883C5DC40EC53EEBD12767347E99414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCDB95699C4766F3302F7BE48105D541 /* XKLimiter.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/XKLimiter/XKLimiter-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/XKLimiter/XKLimiter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XKLimiter/XKLimiter.modulemap";
+				PRODUCT_MODULE_NAME = XKLimiter;
+				PRODUCT_NAME = XKLimiter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		172635E9F99434158ED026F80D4252A7 /* Build configuration list for PBXNativeTarget "Pods-XKLimiter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA79669DC68399D1DAF0D3D39B3841F /* Debug */,
+				99CEC9067DE850BE45793F27BDD1A05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8353B18D22AA59DAC56EB6EA982D4D39 /* Build configuration list for PBXNativeTarget "XKLimiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AB2349DA7E88C784FE911E4F066D3F /* Debug */,
+				E883C5DC40EC53EEBD12767347E99414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14525C50B096CD21CBA5552AB806C86 /* Build configuration list for PBXNativeTarget "Pods-XKLimiter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F459C66BA23182CF03FB6C3A6D4BA53 /* Debug */,
+				6BADCD83F7A0D2B4B3448BBFC3C33511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

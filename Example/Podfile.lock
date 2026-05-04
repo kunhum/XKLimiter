@@ -1,0 +1,16 @@
+PODS:
+  - XKLimiter (0.1.0)
+
+DEPENDENCIES:
+  - XKLimiter (from `../`)
+
+EXTERNAL SOURCES:
+  XKLimiter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKLimiter: c78cf3e5cb5947f751229b20af56f4b76c6cd85e
+
+PODFILE CHECKSUM: 4bd3084912074f2288e1aafe6073a4b6fe181266
+
+COCOAPODS: 1.16.2
